@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-top: 30px;
+    color: #dd00ff;
+    text-shadow: 0px 0px 20px #000000;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.input_container {
+    margin-top: 50px;
+}
+
+.input_container > input {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px #000000;
+    color: #6d6d6d;
+    font-size: 23px;
+}
+
+.reset_container {
+    margin-top: 20px;
+}
+
+.reset_container > button {
+    width: 200px;
+    height: 50px;
+    font-size: 23px;
+    border: none;
+    border-radius: 10px;
+    background: #067cc5;
+    color: #ffffff;
+    box-shadow: 0px 0px 14px #696969;
+    transition: 0.3s;
+}
+
+.reset_container > button:hover {
+    transform: scale(1.05);
+    text-shadow: 0px 0px 10px #696969;
+    opacity: 0.9;
+}
+
+.emojis_container {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emojis_inner_container {
+    width: 50%;
+}
+
+.emojis_inner_container > span {
+    display: inline-block;
+    margin: 15px;
+}
+
+.emojis_inner_container {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #696969;
+    padding: 30px 0px;
+}
+
+.error {
+    color: #fc3737;
+    font-size: 32px;
+    font-weight: 500;
+    text-shadow: 0px 0px 23px #000000;
+}
